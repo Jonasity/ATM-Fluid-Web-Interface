@@ -1,0 +1,127 @@
+#container {
+  width: auto;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+}
+
+/* Use a sans-serif font for the entire page */
+body {
+  font-family: sans-serif;
+}
+
+/* Use a white background with a grey border */
+body {
+  background-color: white;
+  border: 1px solid grey;
+}
+
+/* Center the header and footer text */
+header, footer {
+  text-align: center;
+}
+
+button {
+  color: black;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: white;
+}
+/* Use a grey background for the screen and add some padding */
+#screen {
+  background-color: lightblue;
+  padding: 30px;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 100px;
+}
+
+/* Use a black background for the keypad and add some padding */
+#keypad {
+  padding: 20px;
+  display: flex;
+  flex:1;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 250px;
+}
+
+/* Use white text and a white background for the keypad buttons */
+#keypad button {
+  color: black;
+  background-color: white;
+  width: 75px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+/* Use a dark grey background for the clear and enter buttons */
+#clear, #enter {
+  background-color: darkgrey;
+}
+
+#menu {
+  padding: 20px;
+  display: flex;
+  flex:0.5;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 250px;
+}
+/* Use a dark grey background and white text for the menu buttons */
+#menu button {
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+/* Use a white background and black text for the text box */
+#pin {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+#transferdest {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+#WithdrawOptions {
+  padding: 20px;
+  display: flex;
+  flex:1;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+}
+#WithdrawOptions button {
+  color: black;
+  background-color: white;
+  width: 75px;
+  height: 50px;
+  font-size: 18px;
+  border: 1px solid black;
+}

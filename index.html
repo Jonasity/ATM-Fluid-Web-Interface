@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ATM Machine</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ATM Machine</h1>
+    </header>
+    <main id='container'>
+      <div id="screen">
+        <p id="message">Welcome to the ATM Machine. Please insert your card.</p>
+        <input type="password" id="pin" placeholder="Enter PIN" maxlength="4" style="display: none" />
+        <input type="text" id="transferdest" value="LT" style="display: none">
+      </div>
+      <form id="keypad" style="display: none">
+        <button type="button" data-value="1">1</button>
+        <button type="button" data-value="2">2</button>
+        <button type="button" data-value="3">3</button>
+        <button type="button" data-value="4">4</button>
+        <button type="button" data-value="5">5</button>
+        <button type="button" data-value="6">6</button>
+        <button type="button" data-value="7">7</button>
+        <button type="button" data-value="8">8</button>
+        <button type="button" data-value="9">9</button>
+        <button type="button" id="clear">Clear</button>
+        <button type="button" data-value="0">0</button>
+        <button type="button" id="enter">Enter</button>
+      </form>
+      <div id="menu" style="display: none">
+        <button type="button" id="withdrawal">Withdrawal</button>
+        <button type="button" id="balance">Balance</button>
+        <button type="button" id="transfer">Transfer</button>
+      </div>
+      <form id="WithdrawOptions" style="display: none">
+        <button type="button" id="wo"data-value="10">10</button>
+        <button type="button" id="wo"data-value="20">20</button>
+        <button type="button" id="wo"data-value="50">50</button>
+        <button type="button" id="wo"data-value="100">100</button>
+        <button type="button" id="wo"data-value="200">200</button>
+        <button type="button" id="wo"data-value="300">300</button>
+        <button type="button" id="wo"data-value="400">400</button>
+        <button type="button" id="wo"data-value="500">500</button>
+      </form>
+      <form id="TakeCard" style="display: none">
+        <button type="button">Take out card</button>
+      </form>
+
+    </main>
+    <footer>
+      <p>Thank you for using the ATM Machine.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
