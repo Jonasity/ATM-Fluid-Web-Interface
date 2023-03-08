@@ -5,7 +5,7 @@ CSS was also heavily used to ensure all the containers and UI is seamless, clean
 Download files into a new folder and open index.html in your browser
 
 First page you see
-![Screenshot 2023-03-08 182416](https://user-images.githubusercontent.com/56690175/223771261-1c41e14d-0a51-4172-9cbb-0532588ae610.png| width=100)
+![Screenshot 2023-03-08 182416](https://user-images.githubusercontent.com/56690175/223771261-1c41e14d-0a51-4172-9cbb-0532588ae610.png | width=100)
 
 After putting in card, pin entering menu shows
 ![Screenshot 2023-03-08 182444](https://user-images.githubusercontent.com/56690175/223771383-a3d6fb92-cd85-4be8-be91-756f0e471964.png)
